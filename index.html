@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Araf Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+   <!--  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico"> -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22><path fill=%22%23e94560%22 d=%22M256 8C119.1 8 8 119.1 8 256s111.1 248 248 248 248-111.1 248-248S392.9 8 256 8zm0 464C132.5 472 40 379.5 40 256S132.5 40 256 40s216 92.5 216 216-92.5 216-216 216zm-64-128l128-128-128-128v256z%22/></svg>" type="image/svg+xml">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" aria-label="Main Navigation">
+        <div class="logo">
+            <a href="index.html" class="logo-link">
+                <span class="logo-highlight">Im.</span>Araf
+            </a>
+        </div>
+        
+        <!--<div class="logo">
+            <img src="assets/images/logo.png" alt="Logo">
+        </div> -->
+        <ul class="nav-links">
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li><a href="recent-projects.html">Recent Projects</a></li>
+            <li><a href="work-experience.html">Work Experiences</a></li>
+            <li><a href="upcoming-projects.html">Upcoming Projects</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+        </ul>
+        <button class="burger" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Main/Home Page -->
+    <header id="home" class="main-header">
+        <h1>Hey, I'm <span class="highlight">Yeasin Arafat</span></h1>
+        <p class="tagline">Front-end Developer | Web Enthusiast</p>
+        <img src="assets/images/profile-shadow.png" alt="Profile Image" class="profile-shadow">
+        
+        <a href="#skills" class="scroll-down">
+            <i class="fas fa-chevron-down"></i> <!-- Font Awesome Scroll Down Icon -->
+        </a>
+        
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-block">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-content">
+            <div class="skills-category">
+                <h3>Front-End</h3>
+                <div class="skill-icons">
+                    <div class="skill-item"><i class="fab fa-html5"></i> HTML</div>
+                    <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS</div>
+                    <div class="skill-item"><i class="fab fa-js"></i> JS</div>
+                    <div class="skill-item"><i class="fas fa-code text-pink-500"></i> Tailwind CSS</div>
+                    <div class="skill-item"><i class="fab fa-react"></i> React</div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Back-End</h3>
+                <div class="skill-icons">
+                    <!--<div class="skill-item"><i class="fab fa-python"></i> Python</div> -->
+                    <div class="skill-item"><i class="fab fa-java"></i> Java</div>
+                    <div class="skill-item"><i class="fab fa-php"></i> PHP</div>
+                    <div class="skill-item"><i class="fab fa-node-js"></i> Node</div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Programming</h3>
+                <div class="skill-icons">
+                    <div class="skill-item"><i class="fas fa-code"></i> C</div>
+                    <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+                    <div class="skill-item"><i class="fab fa-java"></i> Java</div>
+                    <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+                    <div class="skill-item"><i class="fab fa-php"></i> PHP</div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>UI/UX Design</h3>
+                <div class="skill-icons">
+                    <div class="skill-item"><i class="fas fa-drafting-compass"></i> Figma</div>
+                    <div class="skill-item"><i class="fas fa-paint-brush"></i> Canva</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <a href="#projects" class="scroll-down">
+        <i class="fas fa-chevron-down"></i> <!-- Font Awesome Scroll Down Icon -->
+    </a>
+
+    <!-- Recent Projects Section -->
+    <section id="projects" class="projects-block">
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="projects-wrapper">
+            <div class="project">
+                <img src="assets/images/project1.png" alt="Project 1">
+                <h3>Web Application Testing Automation Using Selenium</h3>
+            <p>It targets key functionalities such as login tests, input validation, 
+                edge case testing, account creation, and basic security testing.</p>
+            <a href="https://github.com/araf5/Software-Testing.git" class="read-more">Link</a>
+            </div>
+            <div class="project">
+                <img src="assets/images/project2.png" alt="Project 2">
+                <h3>ATN IT Firm Website</h3>
+                <p>The website is developed using PHP and integrated with a dynamic database. It can be accessed locally via the following URL:
+                    http://localhost:8080/ItFirm/home.php</p>
+            <a href="https://github.com/araf5/My-Projects/tree/73700252529e656d87f705ab092edaba8c74fa78/Responsive%20IT%20Firm%20Website%20Design" class="read-more">Link</a>
+            </div>
+            <div>
+                <a href="recent-projects.html" class="read-more">For More Projects</a>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Yeasin Arafat. All Rights Reserved.</p>
+        <p>Follow me on:
+            <a href="https://github.com/araf5" target="_blank"><i class="fab fa-github"></i></a> 
+            <a href="https://www.linkedin.com/in/md-yeasin-arafat-259411184/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        </p>
+    </footer>
+
+    <div class="theme-toggle" id="theme-toggle">
+        <span class="toggle-icon">
+            <i class="fas fa-moon"></i>
+        </span>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

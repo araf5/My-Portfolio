@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styles2.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" aria-label="Main Navigation">
+        <div class="logo">
+            <a href="index.html" class="logo-link">
+                <span class="logo-highlight">Im.</span>Araf
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recent-projects.html" >Recent Projects</a></li>
+            <li><a href="work-experience.html">Work Experiences</a></li>
+            <li><a href="upcoming-projects.html">Upcoming Projects</a></li>
+            <li><a href="about.html" >About Me</a></li>
+            <li><a href="/contact.html" class="active">Contact</a></li>
+        </ul>
+        <button class="burger" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-block">
+        <h2>Contact Me</h2>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <input type="text" name="fullName" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="phoneNumber" placeholder="Phone Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        
+    </section>
+
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="theme-toggle">
+        <span class="toggle-icon">
+            <i class="fas fa-moon"></i>
+        </span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Yeasin Arafat. All Rights Reserved.</p>
+        <p>Follow me on:
+            <a href="https://github.com/araf5" target="_blank"><i class="fab fa-github"></i></a> 
+            <a href="https://www.linkedin.com/in/md-yeasin-arafat-259411184/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        </p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
